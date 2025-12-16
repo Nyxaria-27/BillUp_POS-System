@@ -233,9 +233,9 @@ function toggleCustomDate() {
 </div>
 
 <!-- Summary Stats -->
-<div class="bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg shadow p-6">
+{{-- <div class="bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg shadow p-6">
     <h3 class="text-lg font-semibold text-gray-800 mb-4">Ringkasan Laporan</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-white rounded-lg p-4 shadow">
             <p class="text-sm text-gray-600 mb-1">Total Pendapatan Kotor</p>
             <p class="text-2xl font-bold text-gray-800">Rp {{ number_format($totalRevenue + $totalDiscount, 0, ',', '.') }}</p>
@@ -249,7 +249,7 @@ function toggleCustomDate() {
             <p class="text-2xl font-bold text-green-600">Rp {{ number_format($totalRevenue, 0, ',', '.') }}</p>
         </div>
     </div>
-</div>
+</div> --}}
 
 </div><!-- Close print-content -->
 
