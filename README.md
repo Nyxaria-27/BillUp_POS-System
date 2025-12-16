@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/logo.png" alt="BillUp Logo" width="200"/>
+  <img src="./public/images/logo.svg" alt="BillUp Logo" width="200"/>
 </p>
 
 <h1 align="center">BillUp - Point of Sales System</h1>
@@ -264,7 +264,7 @@ return [
 
 ### Welcome Page
 <p align="center">
-  <img src="screenshots/welcome.png" alt="Welcome Page" width="800"/>
+  <img src="/screenshots/welcome.png" alt="Welcome Page" width="800"/>
   <br>
   <em>Halaman landing dengan desain modern dan informative</em>
 </p>

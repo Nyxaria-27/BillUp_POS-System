@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background -->
+  <rect width="200" height="200" rx="30" fill="url(#gradient)"/>
+  
+  <!-- Icon with shadow effect -->
+  <g transform="translate(50, 50)">
+    <!-- Shadow -->
+    <path d="M15 20h60M15 35h60M22.5 67.5h45a5 5 0 005-5V12.5a5 5 0 00-5-5h-27.93a2.5 2.5 0 00-1.768.732L10.232 25.232A2.5 2.5 0 009.5 27v35.5a5 5 0 005 5z" 
+          stroke="#1E40AF" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          opacity="0.3"/>
+    
+    <!-- Main icon -->
+    <path d="M15 20h60M15 35h60M22.5 67.5h45a5 5 0 005-5V12.5a5 5 0 00-5-5h-27.93a2.5 2.5 0 00-1.768.732L10.232 25.232A2.5 2.5 0 009.5 27v35.5a5 5 0 005 5z" 
+          stroke="white" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>
